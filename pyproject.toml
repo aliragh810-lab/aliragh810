@@ -1,0 +1,14 @@
+[build-system]
+requires = []
+build-backend = "backend"
+
+[project]
+name = "browsertrace"
+version = "1.0.0"
+description = "Digital forensics tool for web browser artifacts"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Ali Abdullah Mohammed Rajeh"}]
+
+[project.scripts]
+browsertrace = "browsertrace.cli:main"
